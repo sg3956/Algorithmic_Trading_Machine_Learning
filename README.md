@@ -48,42 +48,42 @@ Make sure to run the appropriate imports:
 ## Analysis
 
 
-The following graph shows the actual and predicted cumulative returns for a 3 month training period. This graph shows that the predicted strategy returns performed just slightly better than the actual returns.
+The graph below illustrates the cumulative returns that were actually earned and those that were predicted during a three-month training period. It indicates that the returns expected by the strategy were marginally higher than the actual returns.
 
 ![1](https://github.com/sg3956/Machine_Learning_Trading_Bot/blob/1692d26884a927d2a797d57351d55c191beb3da1/3_4_100.png)
 
 
-The following graph shows the cumulative returns comparison with a 2 month training period. This graph shows that the predicted strategy returns did not perform much differently than the 2 month training period.
-
+The graph presented below depicts a comparison of cumulative returns during a two-month training period. It suggests that the returns expected by the strategy did not differ significantly from those obtained during the three-month training period.
 ![2](https://github.com/sg3956/Machine_Learning_Trading_Bot/blob/1692d26884a927d2a797d57351d55c191beb3da1/2_4_100.png)
 
 
-The following graph shows the cumulative returns with a 6 month training window. This graph shows that the predictions matched with the actual returns for longer than the 2 and 3 month training periods, but then predicted lower for a period of time before having higher predictions towards the end of the data. 
+The graph below displays the cumulative returns obtained from an 8-month training window. The graph indicates that the predicted returns aligned with the actual returns for a longer period compared to the 2-month and 3-month training periods. However, there was a phase where the predicted returns were lower than the actual returns. Towards the end of the data, the predictions picked up again and were higher than before.
 
 ![3](https://github.com/sg3956/Machine_Learning_Trading_Bot/blob/1692d26884a927d2a797d57351d55c191beb3da1/8_4_100.png)
 
 
-Based in these three graphs alone, it appears that the 3 month window strategy has the least amount of volatility.
+Judging solely from the three graphs presented, it seems that the strategy that used a 3 month training window exhibited the least amount of volatility.
 
 
-The following graph shows a 3 month training period from above with the short SMA set to 7 days and the long SMA set to 200 days.
+This graph illustrates a 3 month training period, previously mentioned, where the short Simple Moving Average (SMA) is configured to 7 days and the long SMA is set to 200 days.
 
 ![4](https://github.com/sg3956/Machine_Learning_Trading_Bot/blob/1692d26884a927d2a797d57351d55c191beb3da1/7_200.png)
 
 
-The following graph shows a 3 month training period from above with the short SMA set to 7 days and the long SMA set to 150 days.
+This graph illustrates a 3 month training period, previously mentioned, where the short Simple Moving Average (SMA) is configured to 7 days and the long SMA is set to 150 days.
+
 
 ![5](https://github.com/sg3956/Machine_Learning_Trading_Bot/blob/1692d26884a927d2a797d57351d55c191beb3da1/7_150.png)
 
 
-As you can see from these graphs, it appears that using a short window of 7 days and a long window of 150 days predicts slightly better with less volatility than the original 4 day short window and 100 day long window. This will be the strategy that I recommend.
+From these graphs, it seems that utilizing a short window of 7 days and a long window of 150 days produces slightly improved predictions with reduced volatility, compared to the initial approach that employed a 4-day short window and a 100-day long window. Based on this analysis, this is the strategy that I would suggest.
 
+The graph presented below displays the cumulative returns obtained using a Decision Tree Classifier Model, with a 3-month training period and Simple Moving Averages (SMAs) configured to a 4-day short window and a 100-day long window.
 
-The final graph below shows the cumulative returns with a 3 month training period, 4 day short window and 100 day long window SMAs using a Decision Tree Classifier Model.
 
 ![6](https://github.com/sg3956/Machine_Learning_Trading_Bot/blob/1692d26884a927d2a797d57351d55c191beb3da1/Actual_vs_DTC.png)
 
-We can see from this graphic that the returns are a little more volatile and end up lower than the actual returns. Therefore my recommendation is to use the SVM strategy as it had the best predicted returns with the least amount of volatility.
+This graphic suggests that the returns obtained from the Decision Tree Classifier Model, with a 3-month training period and SMAs configured to a 4-day short window and a 100-day long window, exhibit higher volatility and ultimately result in lower returns compared to the actual returns. Based on this analysis, I would recommend using the SVM strategy as it produced the most accurate predicted returns with the least amount of volatility.
 
 ---
 
