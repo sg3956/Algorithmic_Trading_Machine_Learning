@@ -57,7 +57,7 @@ The graph presented below depicts a comparison of cumulative returns during a tw
 ![2](https://github.com/sg3956/Machine_Learning_Trading_Bot/blob/1692d26884a927d2a797d57351d55c191beb3da1/2_4_100.png)
 
 
-The graph below displays the cumulative returns obtained from an 8-month training window. The graph indicates that the predicted returns aligned with the actual returns for a longer period compared to the 2-month and 3-month training periods. However, there was a phase where the predicted returns were lower than the actual returns. Towards the end of the data, the predictions picked up again and were higher than before.
+The graph below shows the cumulative returns obtained from an 8-month training period. It suggests that, unlike the 2-month and 3-month training periods, the predicted returns trailed behind the actual returns for a period of time.
 
 ![3](https://github.com/sg3956/Machine_Learning_Trading_Bot/blob/1692d26884a927d2a797d57351d55c191beb3da1/8_4_100.png)
 
